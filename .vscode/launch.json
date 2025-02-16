@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/thais/OneDrive - Insper - Institudo de Ensino e Pesquisa/5 semestre/Embarcados/25a-emb-pre-2-rules-isr-thaissabaini",
+      "program": "c:/Users/thais/OneDrive - Insper - Institudo de Ensino e Pesquisa/5 semestre/Embarcados/25a-emb-pre-2-rules-isr-thaissabaini/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
