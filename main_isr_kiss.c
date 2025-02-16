@@ -1,7 +1,6 @@
 #include "asf.h"
 
-volatile int g_cnt = 0;
-volatile char g_str[10];
+
 volatile int btn_flag = 0;
 
 // Callback de interrupção do botão
@@ -10,6 +9,9 @@ void btn_callback(void) {
 }
 
 void main(void) {
+  int g_cnt = 0;
+  char g_str[10];
+  
   while (1) {
     if (btn_flag) {
       btn_flag = 0;
