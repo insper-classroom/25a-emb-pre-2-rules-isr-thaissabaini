@@ -13,7 +13,6 @@ void btn_callback(void) {
     g_cnt = 0;
 
   g_cnt = 2;
-
   int i = 0;
   for (i = 0; i < g_cnt; i++) {
     g_str = 1;
